@@ -1,8 +1,9 @@
-*{
-    background-color: #dec66f;
-    font-family: Arial, Helvetica, sans-serif;
-    
+body{
+    background-color: #dec66f ;
 }
+
+    
+
 
 h1 {
     text-align: center;
@@ -19,18 +20,28 @@ ul{
     text-align: center;
     padding-top: 40px;
 }
-ul li{
-    padding: 0px;
+li{
+    
     list-style-type: none;
     display: inline-block;
     margin: 20px;
     box-shadow: 10px 10px 20px black;
+    vertical-align: top;
 
 }
 
 div{
     width: 400px;
-    height: 800px;
+    height: 200px;
     background-color: white;
+    
+}
+
+p {
+    
+    margin: 0px;
+    font-size: 20px;
+    padding: 40px 20px;
+    
 }
 
