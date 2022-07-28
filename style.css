@@ -1,0 +1,36 @@
+*{
+    background-color: #dec66f;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+   padding-top: 60px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+ul{
+    text-align: center;
+    padding-top: 40px;
+}
+ul li{
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 10px 10px 20px black;
+
+}
+
+div{
+    width: 400px;
+    height: 800px;
+    background-color: white;
+}
+
