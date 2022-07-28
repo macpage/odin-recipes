@@ -30,18 +30,22 @@ li{
 
 }
 
-div{
-    width: 400px;
-    height: 200px;
-    background-color: white;
-    
-}
-
 p {
-    
     margin: 0px;
     font-size: 20px;
     padding: 40px 20px;
     
 }
+
+.dropdown:hover  .dropdown-content{
+    display: block;
+}
+.dropdown-content{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    display: none;
+}
+
+
 
