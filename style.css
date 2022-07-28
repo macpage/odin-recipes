@@ -1,14 +1,22 @@
 body{
     background-color: #dec66f ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-   
+   text-align: center;
 }
 
 
     
+#back-button{
+    position: absolute;
+    
 
+    margin-left: -30%;
+    margin-top: 50px;
+    
+    height: auto;
+}
 
-h1 {
+#headline h1 {
     text-align: center;
     font-size: 36px;
    display: inline-block;
@@ -20,11 +28,22 @@ h1 {
 }
 
 #headline{
+    
     align-items: center;
     justify-content: center;
     display: flex;
     margin-top: 100px;
     
+}
+
+.hl-recipe{
+    text-align: center;
+    font-size: 36px;
+    display: inline-block;
+    background-color: white;
+    color: #dec66f;
+    width: 500px;
+    box-shadow: 8px 8px 0px grey;
 }
 
 hr{
@@ -41,25 +60,105 @@ hr{
   height: 20px;
   background-color: white;
   box-shadow: 8px 8px 0px grey;
+  
     
 }
 
-img {
+.big3{
     width: 400px;
     height: 300px;
+}
+
+.recipe-picture{
+    display: block;
+    margin-left: 20px;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 8px solid white;
+  box-shadow: 10px 10px 0px grey;
+  width: 700px;
+  height: 450px;
+}
+
+.info{
+    display: flex;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+.ing-hl{
+    display: inline-block;
+    float: right;
+    margin-top: -625px;
+    margin-right: 200px;
+    background-color: white;
+    color: #dec66f;
+    width: 200px;
+    height: 35px;
+    box-shadow: 8px 8px 0px grey;
+}
+.ing-list {
+    background-color: white;
+    width: 600px;
+    float: right;
+    margin-top: -570px;
+    margin-right: 100px;
+    text-align: left;
+    column-count: 2;
+    list-style-type: none;
+    box-shadow: 10px 10px 0px grey;
+   
+   
+}
+
+.ing-list li {
+    margin: 20px;
+    margin-left: -10px;
+    margin-top: -20px;
+    padding: 20px;
+   
+    display: inline-block;
+   
+}
+
+.dir-hl {
+    display: inline-block;
+    background-color: white;
+    color: #dec66f;
+    width: 250px;
+    font-size: 30px;
+    box-shadow: 8px 8px 0px grey;
+}
+
+.dir-list {
+   
+    background-color: white;
+    text-align: left;
+    width: 80%;
+   margin: 0 auto;
+   box-shadow: 10px 10px 0px grey;
+   margin-bottom: 100px;
+   padding: 50px;
+}
+
+.dir-list li {
+padding: 25px;
+   
 }
 
 ul{
   text-align: center;
     padding-top: 40px;
-}
-li{
     
-    list-style-type: none;
+}
+.dropdown-list li{
     display: inline-block;
     margin: 20px;
     
     vertical-align: top;
+    
+   
 
 }
 
