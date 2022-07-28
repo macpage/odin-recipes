@@ -1,7 +1,9 @@
 body{
     background-color: #dec66f ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
 }
+
 
     
 
@@ -14,7 +16,7 @@ h1 {
     height: 50px;
    background-color: white;
    color: #dec66f;
-   box-shadow: 5px 5px 0px grey;
+   box-shadow: 8px 8px 0px grey;
 }
 
 #headline{
@@ -36,8 +38,9 @@ hr{
   bottom: 100px;
   width: 80%;
   
-  height: 10px;
+  height: 20px;
   background-color: white;
+  box-shadow: 8px 8px 0px grey;
     
 }
 
@@ -61,7 +64,8 @@ li{
 }
 
 .dropdown{
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 0px grey;
+   border: 8px solid white;;
 }
 
 p {
@@ -78,7 +82,7 @@ p {
 .dropdown:hover{
     transition: transform .2s;
     transform: scale(1.1);
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 0px grey;
     
 }
 
